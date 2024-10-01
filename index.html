@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Design</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="Main-box">
+        <div class="text-box">
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+            <ul class="order-list">
+                <p class="ord-list"><img src="images/icon-list.svg" alt="icon-image">   Product discovery and building what matters</p>
+                <p class="ord-list"><img src="images/icon-list.svg" alt="icon-image">   Measuring to ensure updates are a success</p>
+                <p class="ord-list"><img src="images/icon-list.svg" alt="icon-image">   And much more!</p>
+            </ul>
+            <form action="#">Email Address
+                <input class="email" type="email" placeholder="opzyhush09@gmail.com"/>
+                <button type="Submit" class="btn">Subscribe to monthly newsletter</button>
+            </form>     
+        </div>  
+        <div>
+            <img class="img" src="images/illustration-sign-up-desktop.svg" alt="">    
+        </div> 
+        <button id="openModal">Open Modal</button>  
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="close">&times;</span>
+                <img class="icon-img" src="images/icon-list.svg" alt="icon-image">
+                <h2>Thanks for subscribing!</h2>
+                <p class="modal-p">A confirmation email has been sent to opzyhush09@gmail.com. Please open it and click the button inside to confirm your subscription</p>
+                <button class="mybtn btn-lg btn-outline-light">Dismiss Message</button>
+            </div>
+
+        </div>   
+    </div>
+    
+</body>
+
+<script src="index.js"></script>
+</html>
